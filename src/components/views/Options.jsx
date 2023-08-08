@@ -9,8 +9,8 @@ const Options = () => {
     <div className="contenedor-opciones">
       <h6 className="text-center m-3 fw-bold">Elegí una categoría</h6>
       <Container>
-        <Row className="text-center">
-          <Col>
+        <Row className="text-center px-3">
+          <Col className="btn-div">
             <NavLink to="*" className="text-decoration-none text-dark">
               <figure className="figure">
                 <img
@@ -21,7 +21,7 @@ const Options = () => {
               <p className="fw-semibold">Medicamentos</p>
             </NavLink>
           </Col>
-          <Col>
+          <Col className="btn-div">
             <NavLink to="*" className="text-decoration-none text-dark">
               <figure className="figure">
                 <img
@@ -32,7 +32,7 @@ const Options = () => {
               <p className="fw-semibold">Alimentos</p>
             </NavLink>
           </Col>
-          <Col>
+          <Col className="btn-div">
             <NavLink to="/donar" className="text-decoration-none text-dark">
               <figure className="figure">
                 <img
