@@ -2,6 +2,7 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./Inicio.css";
 import { Container } from "react-bootstrap";
+import Options from "./Options";
 
 const Inicio = () => {
   return (
@@ -26,6 +27,7 @@ const Inicio = () => {
           </p>
         </section>
       </Container>
+      <Options></Options>
     </>
   );
 };
