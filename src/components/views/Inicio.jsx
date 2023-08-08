@@ -1,4 +1,3 @@
-import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./Inicio.css";
 import { Container } from "react-bootstrap";
@@ -6,7 +5,7 @@ import Options from "./Options";
 
 const Inicio = () => {
   return (
-    <>
+    <div className="contenedor-inicio">
       <Container>
         <section>
           <figure id="bannerPrincipal">
@@ -28,7 +27,7 @@ const Inicio = () => {
         </section>
       </Container>
       <Options></Options>
-    </>
+    </div>
   );
 };
 

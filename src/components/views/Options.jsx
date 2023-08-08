@@ -1,41 +1,39 @@
 import React from "react";
 import { Container, Col, Row } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
-import './Options.css';
+import "./Options.css";
 
 const Options = () => {
   return (
-    <div>
-      <Container className="opciones-container">
+    <div className="contenedor-opciones">
+      <h6 className="text-center">Elije una categoría</h6>
+      <Container>
         <Row className="text-center">
           <Col>
-            <div className="opcion">
+            <div>
               <img
                 src="https://cdn2.iconfinder.com/data/icons/charity-37/512/Charity_37-256.png"
                 alt="Medicamentos"
-                className="opcion-imagen"
               />
-              <p className="opcion-nombre">Medicamentos</p>
+              <p>Medicamentos</p>
             </div>
           </Col>
           <Col>
-            <div className="opcion">
+            <div>
               <img
                 src="https://cdn2.iconfinder.com/data/icons/charity-37/512/Charity_6-512.png"
                 alt="Alimentos"
-                className="opcion-imagen"
               />
-              <p className="opcion-nombre">Alimentos</p>
+              <p>Alimentos</p>
             </div>
           </Col>
           <Col>
-            <div className="opcion">
+            <div>
               <img
                 src="https://cdn2.iconfinder.com/data/icons/charity-37/512/Charity_10-512.png"
                 alt="Donar"
-                className="opcion-imagen"
               />
-              <p className="opcion-nombre">Donar</p>
+              <p>Donar</p>
             </div>
           </Col>
         </Row>

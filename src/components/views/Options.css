@@ -1,22 +1,8 @@
-.opciones-container {
-  padding: 20px;
-}
-
-.opcion {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 20px;
-}
-
-.opcion-imagen {
-  width: 80px; /* Ajusta el tamaño según tus necesidades */
-  height: 80px;
-  border-radius: 50%;
-  margin-bottom: 10px;
-}
-
-.opcion-nombre {
-  font-size: 14px;
-  font-weight: bold;
+.contenedor-opciones{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    border-radius: 2rem 2rem 0 0;
 }

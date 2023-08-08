@@ -10,3 +10,9 @@ img{
 #contTiposDonaciones{
     background-color: white;
 }
+
+.contenedor-inicio{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
