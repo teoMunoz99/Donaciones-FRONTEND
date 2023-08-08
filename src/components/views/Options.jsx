@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Col, Row } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./Options.css";
+import { NavLink } from "react-router-dom";
 
 const Options = () => {
   return (
@@ -10,7 +11,7 @@ const Options = () => {
       <Container>
         <Row className="text-center">
           <Col>
-            <a href="#" className="text-decoration-none text-dark">
+            <NavLink to="*" className="text-decoration-none text-dark">
               <figure className="figure">
                 <img
                   src="https://cdn2.iconfinder.com/data/icons/charity-37/512/Charity_37-256.png"
@@ -18,10 +19,10 @@ const Options = () => {
                 />
               </figure>
               <p className="fw-semibold">Medicamentos</p>
-            </a>
+            </NavLink>
           </Col>
           <Col>
-            <a href="#" className="text-decoration-none text-dark">
+            <NavLink to="*" className="text-decoration-none text-dark">
               <figure className="figure">
                 <img
                   src="https://cdn2.iconfinder.com/data/icons/charity-37/512/Charity_6-512.png"
@@ -29,10 +30,10 @@ const Options = () => {
                 />
               </figure>
               <p className="fw-semibold">Alimentos</p>
-            </a>
+            </NavLink>
           </Col>
           <Col>
-            <a href="#" className="text-decoration-none text-dark">
+            <NavLink to="/donar" className="text-decoration-none text-dark">
               <figure className="figure">
                 <img
                   src="https://cdn2.iconfinder.com/data/icons/charity-37/512/Charity_10-512.png"
@@ -40,7 +41,7 @@ const Options = () => {
                 />
               </figure>
               <p className="fw-semibold">Donar</p>
-            </a>
+            </NavLink>
           </Col>
         </Row>
       </Container>
