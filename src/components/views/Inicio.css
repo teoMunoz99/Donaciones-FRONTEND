@@ -16,3 +16,11 @@ img{
     flex-direction: column;
     min-height: 100vh;
 }
+.contenedor-texto-img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    text-align: center;
+}

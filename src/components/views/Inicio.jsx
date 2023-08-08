@@ -6,7 +6,7 @@ import Options from "./Options";
 const Inicio = () => {
   return (
     <div className="contenedor-inicio">
-      <Container>
+      <Container className="contenedor-texto-img">
         <section>
           <figure id="bannerPrincipal">
             <img
@@ -14,15 +14,11 @@ const Inicio = () => {
               alt=""
             />
           </figure>
-          <h1>Cambia vidas con un gesto, dona con el corazón</h1>
-          <p>
+          <h1 className="fw-bold text-light">Cambia vidas con un gesto, dona con el corazón</h1>
+          <p className="text-light fs-5">
             Cada donación que realizas es un paso hacia un mundo mejor. Tu
             generosidad se convierte en esperanza, en sonrisas que se
-            multiplican y en oportunidades que se hacen realidad. Únete a
-            nosotros en este viaje de transformación, donde juntos marcamos la
-            diferencia. Cada contribución cuenta y juntos creamos un impacto
-            perdurable en las vidas que tocamos. ¡Dona hoy y sé parte del cambio
-            positivo que nuestro mundo necesita!
+            multiplican y en oportunidades que se hacen realidad.
           </p>
         </section>
       </Container>
