@@ -1,7 +1,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./Inicio.css";
 import { Container } from "react-bootstrap";
-import Options from "./Options";
+import Options from "../views/Options";
 
 const Inicio = () => {
   return (
