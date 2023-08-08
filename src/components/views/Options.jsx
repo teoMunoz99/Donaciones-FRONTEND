@@ -10,30 +10,36 @@ const Options = () => {
       <Container>
         <Row className="text-center">
           <Col>
-            <a href="#">
-              <img
-                src="https://cdn2.iconfinder.com/data/icons/charity-37/512/Charity_37-256.png"
-                alt="Medicamentos"
-              />
-              <p>Medicamentos</p>
+            <a href="#" className="text-decoration-none text-dark">
+              <figure className="figure">
+                <img
+                  src="https://cdn2.iconfinder.com/data/icons/charity-37/512/Charity_37-256.png"
+                  alt="Medicamentos" className="img"
+                />
+              </figure>
+              <p className="fw-semibold">Medicamentos</p>
             </a>
           </Col>
           <Col>
-            <a href="#">
-              <img
-                src="https://cdn2.iconfinder.com/data/icons/charity-37/512/Charity_6-512.png"
-                alt="Alimentos"
-              />
-              <p>Alimentos</p>
+            <a href="#" className="text-decoration-none text-dark">
+              <figure className="figure">
+                <img
+                  src="https://cdn2.iconfinder.com/data/icons/charity-37/512/Charity_6-512.png"
+                  alt="Alimentos" className="img"
+                />
+              </figure>
+              <p className="fw-semibold">Alimentos</p>
             </a>
           </Col>
           <Col>
-            <a href="#">
-              <img
-                src="https://cdn2.iconfinder.com/data/icons/charity-37/512/Charity_10-512.png"
-                alt="Donar"
-              />
-              <p>Donar</p>
+            <a href="#" className="text-decoration-none text-dark">
+              <figure className="figure">
+                <img
+                  src="https://cdn2.iconfinder.com/data/icons/charity-37/512/Charity_10-512.png"
+                  alt="Donar" className="img"
+                />
+              </figure>
+              <p className="fw-semibold">Donar</p>
             </a>
           </Col>
         </Row>

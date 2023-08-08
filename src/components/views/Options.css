@@ -6,3 +6,9 @@
     background-color: white;
     border-radius: 2rem 2rem 0 0;
 }
+.img{
+    width: 100%;
+}
+.figure{
+    width: 6rem;
+}
