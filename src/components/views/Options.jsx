@@ -7,7 +7,7 @@ import { NavLink } from "react-router-dom";
 const Options = () => {
   return (
     <div className="contenedor-opciones">
-      <h6 className="text-center m-3 fw-bold">Elegí una categoría</h6>
+      <h6 className="text-center m-3 fw-bold padding-titulo">Elegí una categoría</h6>
       <Container>
         <Row className="text-center px-3">
           <Col className="btn-div">

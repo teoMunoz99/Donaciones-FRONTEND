@@ -17,3 +17,20 @@
     padding: 0;
   }
 }
+@media all and (min-width: 360px) {
+  .figure {
+    width: 6rem;
+  }
+}
+@media all and (min-width: 390px) {
+  .figure {
+    width: 7rem;
+  }
+}
+@media all and (min-width: 414px) {
+  .figure {
+    width: 7rem;
+  }
+  .contenedor-opciones {
+  }
+}

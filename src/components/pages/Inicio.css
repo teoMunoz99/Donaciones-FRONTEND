@@ -18,9 +18,40 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
+        padding: 0 .5rem 0 .5rem;
+        margin: 1rem 0 1rem 0;
     }
     #bannerPrincipal{
-        width: 12rem;
+        width: 14rem;
     }
 
+}
+@media all and (min-width: 360px){
+    #bannerPrincipal{
+        width: 20rem;
+    }
+    .tamanio-letra{
+        font-size: 1rem;
+    }
+}
+
+@media all and (min-width: 390px){
+    #bannerPrincipal{
+        width: 24rem;
+    }
+    .tamanio-letra{
+        font-size: 1.4rem;
+    }
+}
+@media all and (min-width: 412px){
+    #bannerPrincipal{
+        width: 25rem;
+    }
+    .tamanio-letra{
+        font-size: 1.3rem;
+    }
+    .contenedor-texto-img{
+        padding: 0 1rem 0 1rem;
+        margin: 3rem 0 3rem 0;
+    }
 }
