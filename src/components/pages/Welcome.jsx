@@ -1,8 +1,8 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./Bienvenida.css";
+import "./Welcome.css";
 import Options from "../views/Options";
 
-const Bienvenida = () => {
+const Welcome = () => {
   return (
     <div className="contenedor-inicio">
         <section className="d-flex flex-column align-items-center text-center contenedor-texto-img">
@@ -24,4 +24,4 @@ const Bienvenida = () => {
   );
 };
 
-export default Bienvenida;
+export default Welcome;

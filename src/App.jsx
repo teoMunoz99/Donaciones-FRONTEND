@@ -1,5 +1,5 @@
-import Donar from "./components/pages/Donar"
-import Bienvenida from "./components/pages/Bienvenida"
+import Home from "./components/pages/Home"
+import Welcome from "./components/pages/Welcome"
 import Error404 from "./components/pages/Error404"
 import {BrowserRouter, Route, Routes} from 'react-router-dom'
 
@@ -8,8 +8,8 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Bienvenida/>}/>
-        <Route path="/donar" element={<Donar/>}/>
+        <Route path="/" element={<Welcome/>}/>
+        <Route path="/Home" element={<Home/>}/>
         <Route path="*" element={<Error404/>}/>
       </Routes>
     </BrowserRouter>

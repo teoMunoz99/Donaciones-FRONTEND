@@ -1,7 +1,7 @@
 import React from 'react';
-import "./Donar.css";
+import "./Home.css";
 
-const Donar = () => {
+const Home = () => {
     return (
         <div>
             holi
@@ -9,4 +9,4 @@ const Donar = () => {
     );
 };
 
-export default Donar;
+export default Home;

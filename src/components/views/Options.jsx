@@ -33,7 +33,7 @@ const Options = () => {
             </NavLink>
           </Col>
           <Col className="btn-div">
-            <NavLink to="/donar" className="text-decoration-none text-dark">
+            <NavLink to="/Home" className="text-decoration-none text-dark">
               <figure className="figure">
                 <img
                   src="https://cdn2.iconfinder.com/data/icons/charity-37/512/Charity_10-512.png"
