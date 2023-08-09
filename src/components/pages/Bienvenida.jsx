@@ -1,9 +1,8 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./Inicio.css";
-import { Container } from "react-bootstrap";
+import "./Bienvenida.css";
 import Options from "../views/Options";
 
-const Inicio = () => {
+const Bienvenida = () => {
   return (
     <div className="contenedor-inicio">
         <section className="d-flex flex-column align-items-center text-center contenedor-texto-img">
@@ -25,4 +24,4 @@ const Inicio = () => {
   );
 };
 
-export default Inicio;
+export default Bienvenida;
