@@ -4,7 +4,7 @@ import Options from "../views/Options";
 
 const Welcome = () => {
   return (
-    <div className="contenedor-inicio">
+    <div className="contenedor-inicio body">
         <section className="d-flex flex-column align-items-center text-center contenedor-texto-img">
           <figure id="bannerPrincipal">
             <img
