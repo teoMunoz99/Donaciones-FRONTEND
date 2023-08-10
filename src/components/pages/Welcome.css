@@ -1,4 +1,4 @@
-@media all and (min-width: 320px){
+/*@media all and (min-width: 320px){
     .body{
         background-color: #3890F4 ;
     }
@@ -54,4 +54,36 @@
         padding: 0 1rem 0 1rem;
         margin: 3rem 0 3rem 0;
     }
+}*/
+
+@media all and (max-width: 767px) {
+  .body {
+    background-color: #3890f4;
+  }
+  img {
+    width: 100%;
+  }
+  #contTiposDonaciones {
+    background-color: white;
+  }
+
+  .contenedor-inicio {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  .contenedor-texto-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 0.5rem 0 0.5rem;
+    margin: 1rem 0 1rem 0;
+  }
+  #bannerPrincipal {
+    width: 14rem;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 991px) {
+}
+@media all and (min-width: 992px) {
 }

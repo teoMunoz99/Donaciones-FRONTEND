@@ -6,9 +6,9 @@
   background-color: #1a4080; /* Color de fondo cuando el botón está presionado */
 }
 
-@media all and (min-width: 320px) {
+@media all and (max-width: 767px) {
   .btn-categorias {
-    font-size: 3rem;
+    font-size: 2rem;
     display: flex;
     padding: 1rem;
     background-color: #3890f4;
@@ -16,4 +16,8 @@
     border-radius: 1.5rem;
     transition: background-color 0.2s ease-in-out;
   }
+}
+@media all and (min-width: 768px) and (max-width: 991px) {
+}
+@media all and (min-width: 992px) {
 }
