@@ -2,6 +2,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./Home.css";
 import Search from "../views/Searchs/Search";
 import BtnVolver from "../common/bntVoler/BtnVolver";
+import Categorias from "../views/Categoria/Categorias";
 
 
 const Home = () => {
@@ -9,6 +10,7 @@ const Home = () => {
     <div className="body-home">
       <BtnVolver></BtnVolver>
       <Search></Search>
+      <Categorias></Categorias>
     </div>
   );
 };
