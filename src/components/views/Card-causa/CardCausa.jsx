@@ -2,6 +2,7 @@ import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import "./CardCausa.css";
 import ProgressBar from "react-bootstrap/ProgressBar";
+import { NavLink } from "react-router-dom";
 
 const CardCausa = () => {
   return (
@@ -31,9 +32,11 @@ const CardCausa = () => {
           <h6 className="mb-1">Meta:</h6>
           <ProgressBar now={30} label={`${30}%`} />
         </section>
-        <Button variant="primary" className="mt-3">
-          Donar Ahora!
-        </Button>
+        <NavLink to="/Detalles">
+          <Button variant="primary" className="mt-3">
+            Donar Ahora!
+          </Button>
+        </NavLink>
       </Card.Body>
     </Card>
   );
