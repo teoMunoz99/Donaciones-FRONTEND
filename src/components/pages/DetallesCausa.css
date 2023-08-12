@@ -9,6 +9,11 @@
     height: 20rem;
     border-radius: 2rem;
   }
+  .btn-monto{
+    width: 7rem;
+    height: 7rem;
+    margin: .2rem;
+  }
 }
 
 @media all and (min-width: 768px) and (max-width: 991px) {

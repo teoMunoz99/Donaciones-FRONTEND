@@ -1,7 +1,12 @@
 @media all and (max-width: 767px) {
   .texto-card {
-    box-shadow: inset 0px -10px 10px -10px rgba(94, 94, 94, 0.979); /* Sombra interna hacia arriba */
-    border-radius: .2rem;
+    /*box-shadow: inset 0px -10px 10px -10px rgba(94, 94, 94, 0.979); /* Sombra interna hacia arriba */
+    /*border-radius: .2rem;*/
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    
   }
 }
 

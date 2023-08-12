@@ -19,8 +19,7 @@ const CardCausa = () => {
       <Card.Body>
         <Card.Title>¡Ayuda a Manchitas!</Card.Title>
         <Card.Text
-          className="texto-card"
-          style={{ maxHeight: "5.5rem", overflow: "hidden" }}
+          className="texto-card text-secondary"
         >
           Manchitas es un perrito en adopción que está luchando contra una
           enfermedad, pero su espíritu inquebrantable y amoroso nos inspira
