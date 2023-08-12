@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import "./DetallesCausa.css";
 import { Container } from "react-bootstrap";
-import BtnVolver from "../common/bntVoler/BtnVolver";
-import BotonPagar from "../views/Btn-Pagar/BotonPagar";
+import BtnVolver from "../../common/bntVoler/BtnVolver";
+import BotonPagar from "../../views/Btn-Pagar/BotonPagar";
 import Button from "react-bootstrap/Button";
 
 const parrafoStyle = {

@@ -1,0 +1,29 @@
+{
+  "causas": [
+    {
+      "id": 1,
+      "nombreCausa": "¡Ayudá a Manchitas!",
+      "descripcion": "Manchitas es un perrito en adopción que esta luchando contra una enfermedad, pero su espíritu inquebrantable y amoroso nos inspira todos los días. Tu generosa donación puede marcar la diferencia en su vida, brindándole los tratamientos médicos que necesita y la oportunidad de encontrar un hogar amoroso que lo cuide para siempre.",
+      "imagen": "linkimagen.jpg",
+      "meta": 5000,
+      "categoria": "animales"
+    },
+    {
+      "id": 2,
+      "nombreCausa": "Apoyo a la Educación",
+      "descripcion": "Nuestro programa de apoyo a la educación brinda oportunidades a niños y jóvenes en comunidades desfavorecidas para acceder a una educación de calidad. Tu contribución ayudará a proporcionar materiales escolares, becas y programas extracurriculares que enriquezcan sus vidas y les den herramientas para un futuro mejor.",
+      "imagen": "linkimagen2.jpg",
+      "meta": 10000,
+      "categoria": "educacion"
+    },
+    {
+      "id": 3,
+      "nombreCausa": "Rescate de Vida Silvestre",
+      "descripcion": "Nuestro equipo de rescatistas trabaja incansablemente para proteger y salvar la vida silvestre en peligro. Desde elefantes heridos hasta aves en peligro de extinción, tu donación ayudará a financiar operaciones de rescate, cuidado médico y esfuerzos de rehabilitación para que estas preciosas especies puedan sobrevivir y prosperar.",
+      "imagen": "linkimagen3.jpg",
+      "meta": 7500,
+      "categoria": "medio ambiente"
+    }
+  ],
+  "usuarios": [{ "id": 1, "nombreUsuario": "admin", "email": "admindonaciones@hotmail.com", "contrasenia": "12345678", "rol": "administrador" }]
+}

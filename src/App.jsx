@@ -1,8 +1,8 @@
-import Home from "./components/pages/Home";
-import Welcome from "./components/pages/Welcome";
-import Error404 from "./components/pages/Error404";
+import Home from "./components/pages/Inicio/Home";
+import Welcome from "./components/pages/Bienvenida/Welcome";
+import Error404 from "./components/pages/Error404/Error404";
+import DetallesCausa from "./components/pages/Detalles/DetallesCausa";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import DetallesCausa from "./components/pages/DetallesCausa";
 
 function App() {
   return (

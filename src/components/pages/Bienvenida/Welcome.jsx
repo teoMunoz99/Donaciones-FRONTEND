@@ -1,6 +1,6 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./Welcome.css";
-import Options from "../views/Options";
+import Options from "../../views/Opciones/Options";
 import { Container } from "react-bootstrap";
 
 const Welcome = () => {
